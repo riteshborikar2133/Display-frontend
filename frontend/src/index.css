@@ -1,0 +1,10 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw; 
+    height: auto;
+    opacity: 1;
+    transform: rotate(80%);
+    z-index: -1;
+  }

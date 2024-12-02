@@ -1,0 +1,75 @@
+
+.wrapper{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.context{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logo-container{
+    text-align: center;
+}
+.logo-container img{
+    height: 40rem;
+}
+
+.contentBox{
+    /* border: 1px solid red; */
+    backdrop-filter: blur(20px);
+    padding: 1rem;
+    width: 80vw;
+}
+.contentBox h3{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    margin: 2rem;
+}
+.contentBox p{
+    /* font-weight: bold; */
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.contentBox img{
+    height: 70vh;
+}
+
+.top-container{
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 1rem 1rem;
+    justify-content: space-between;
+}
+
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.contentBox.animate {
+    animation: slideIn 0.5s ease-in-out; /* Slide-in effect */
+}

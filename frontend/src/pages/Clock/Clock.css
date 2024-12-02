@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+.clock-container {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clocktxt {
+    /* color: black; */
+    /* font-size: 1.2rem; */
+    /* border: 1px solid red; */
+    display: inline;
+    /* font-family: "Protest Guerrilla", sans-serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-weight: bold;   */
+    font-family: 'Courier New', Courier, monospace;
+
+    /* font-style: normal; */
+}
